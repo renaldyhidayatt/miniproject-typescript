@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.mypage {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#feet {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+#inches {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+#result {
+  font-size: 35px;
+  margin-left: 60px;
+  color: yellow;
+}
+
+#submit {
+  width: 250px;
+  height: 35px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: red;
+  color: #fff;
+  font-size: 25px;
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+}
